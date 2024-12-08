@@ -1,0 +1,31 @@
+{
+    "name": "online_store",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx tsc && node ./build/index.js",
+        "swagger": "node ./docs/swagger.js"
+    },
+    "author": "Petsa Yurii",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.701.0",
+        "@supabase/supabase-js": "^2.46.2",
+        "busboy": "^1.6.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.0",
+        "mongodb": "^6.10.0",
+        "mongoose": "^8.6.3",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "devDependencies": {
+        "@types/busboy": "^1.5.4",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.9.3",
+        "@types/swagger-jsdoc": "^6.0.4",
+        "@types/swagger-ui-express": "^4.1.7",
+        "typescript": "^5.7.2"
+    }
+}
